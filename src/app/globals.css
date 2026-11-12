@@ -79,9 +79,8 @@ body:has(dialog[open]) { overflow: hidden; }
 .hero { position: relative; isolation: isolate; overflow: clip; display: grid; place-items: center; height: 100svh; min-height: 640px; padding: 118px 6% 100px; background: #15241b; color: #fff; }
 .hero-background { position: absolute; z-index: -1; inset: -2% 0; overflow: hidden; }
 .hero-poster, .hero-video { width: 100%; height: 100%; object-fit: cover; object-position: center 54%; }
-.hero-video { position: absolute; inset: 0; opacity: 0; transition: opacity 700ms; }
-.hero-video.is-ready { opacity: 1; }
-.hero-gradient { position: absolute; inset: 0; background: linear-gradient(180deg, #071b17ad, #071b178c 48%, #071b17b8); }
+.hero-video { position: absolute; inset: 0; visibility: hidden; }
+.hero-video.is-ready { visibility: visible; }
 .hero-copy { position: relative; width: 100%; min-width: 0; text-align: center; }
 .hero h1 { font-family: var(--font-headline), Impact, sans-serif; font-size: clamp(68px, 8.5vw, 124px); text-transform: uppercase; font-weight: 400; letter-spacing: .015em; line-height: 1; text-shadow: 0 3px 30px #04171040; }
 .hero-mask { display: block; overflow: hidden; padding: .14em 0 .12em; margin: -.14em 0 -.12em; white-space: nowrap; }
@@ -144,13 +143,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .story-media-main { position: relative; grid-column: 1; grid-row: 2; width: 100%; height: 100%; overflow: hidden; z-index: 1; border-radius: 3px; }
 .story-media-main img { object-fit: cover; }
 .story-film-background { position: absolute; inset: 0; overflow: hidden; }
-.story-film-background .hero-gradient { background: linear-gradient(180deg, #071b171a, #071b1733 45%, #071b17a6); }
 .story-playback { top: 18px; right: 18px; bottom: auto; }
 .story-playback .video-error { padding: 10px 12px; background: #071b17e6; border-radius: 3px; }
 .story-media-detail { position: relative; grid-column: 3; grid-row: 2; align-self: end; height: 85%; width: 100%; transform: rotate(7deg); z-index: 2; overflow: hidden; border-radius: 3px; }
 .story-media-detail img { object-fit: cover; }
 .story-media-year { grid-column: 1 / -1; grid-row: 1; justify-self: end; margin-right: 1%; font-size: clamp(120px, 18vw, 280px); font-weight: 800; letter-spacing: -.09em; line-height: .9; opacity: .28; }
-.story-media > p { position: relative; grid-column: 1; grid-row: 2; align-self: end; margin: 0 6% 8%; max-width: 86%; z-index: 3; font-family: Georgia, serif; font-style: italic; font-size: clamp(27px, 3.2vw, 50px); line-height: 1.1; letter-spacing: -.04em; pointer-events: none; }
+.story-media > p { position: relative; grid-column: 1; grid-row: 2; align-self: end; margin: 0 6% 8%; max-width: 86%; z-index: 3; font-family: Georgia, serif; font-style: italic; font-size: clamp(27px, 3.2vw, 50px); line-height: 1.1; letter-spacing: -.04em; text-shadow: 0 2px 6px #071b17, 0 0 20px #071b17; pointer-events: none; }
 .story-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 12%; padding: 75px 0 65px; align-items: end; }
 .story-section h2 { font-size: clamp(40px, 5.2vw, 82px); letter-spacing: -.065em; line-height: 1.08; }
 .story-section h2 em { display: inline-block; }
@@ -234,8 +232,7 @@ body:has(dialog[open]) { overflow: hidden; }
 .directory-stats { display: flex; flex-wrap: wrap; gap: 30px 60px; padding: 30px 0; border-top: 1px solid var(--line); }
 .locations-section.locations-directory { padding-top: 0; }
 .directory-intro.section-pad { position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: flex-end; min-height: clamp(400px, 68svh, 760px); padding-top: 60px; padding-bottom: 60px; background: var(--green); color: var(--paper); }
-.directory-intro .hero-gradient { background: linear-gradient(90deg, #071b17d9, #071b1766), linear-gradient(0deg, #071b1780, transparent); }
-.directory-introduction { position: relative; z-index: 1; max-width: 740px; font-size: clamp(22px, 2.4vw, 34px); line-height: 1.45; text-wrap: balance; }
+.directory-introduction { position: relative; z-index: 1; max-width: 740px; font-size: clamp(22px, 2.4vw, 34px); line-height: 1.45; text-wrap: balance; text-shadow: 0 2px 6px #071b17, 0 0 20px #071b17; }
 .directory-stats > div { display: flex; flex-direction: column; gap: 8px; }
 .directory-stats strong { font-size: clamp(36px, 4vw, 58px); font-weight: 650; letter-spacing: -.06em; line-height: 1; }
 .directory-stats span { font-size: 11px; }
