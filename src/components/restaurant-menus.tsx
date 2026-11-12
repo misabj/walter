@@ -23,6 +23,7 @@ export function RestaurantMenus() {
   const [selected, setSelected] = useState<RestaurantMenu | null>(null);
   const dialog = useRef<HTMLDialogElement>(null);
   const titleId = useId();
+  const dialogId = useId();
 
   function open(menu: RestaurantMenu) {
     setSelected(menu);
@@ -36,15 +37,15 @@ export function RestaurantMenus() {
     </div>
     <div className="pdf-menu-grid">
       {restaurantMenus.map((menu) => <article className="pdf-menu-card" key={menu.id}>
-        <div className="pdf-menu-cover" aria-hidden="true">
+        <button type="button" className="pdf-menu-cover" aria-haspopup="dialog" aria-controls={dialogId} aria-label={t('openNamed', {name: t(`names.${menu.id}`)})} onClick={() => open(menu)}>
           <Image src={menu.cover} alt="" fill sizes="(max-width: 540px) 90vw, (max-width: 1000px) 45vw, 30vw" />
-          <span className="pdf-menu-format">PDF</span>
-        </div>
+          <span className="pdf-menu-format" aria-hidden="true">PDF</span>
+        </button>
         <div className="pdf-menu-card-body">
           <p className="pdf-menu-meta">{t('pages', {count: menu.pages})} · {(menu.bytes / 1024 / 1024).toFixed(1)} MB</p>
           <h3>{t(`names.${menu.id}`)}</h3>
           <p className="pdf-menu-description">{t(`descriptions.${menu.id}`)}</p>
-          <button type="button" className="button button-green" aria-haspopup="dialog" aria-label={t('openNamed', {name: t(`names.${menu.id}`)})} onClick={() => open(menu)}>{t('open')}<ArrowUpRight size={19} aria-hidden="true" /></button>
+          <button type="button" className="button button-green" aria-haspopup="dialog" aria-controls={dialogId} aria-label={t('openNamed', {name: t(`names.${menu.id}`)})} onClick={() => open(menu)}>{t('open')}<ArrowUpRight size={19} aria-hidden="true" /></button>
           <details className="pdf-menu-locations">
             <summary>{t('locations', {count: menu.locations.length})}<ChevronDown size={16} aria-hidden="true" /></summary>
             <ul>{menu.locations.map((location) => <li key={location}>{location}</li>)}</ul>
@@ -58,7 +59,7 @@ export function RestaurantMenus() {
       </aside>
     </div>
     <p className="pdf-menus-note">{t('note')} <a className="text-link" href="https://walter.rs/menu-2-2/" target="_blank" rel="noopener noreferrer">{t('source')}<ArrowUpRight size={15} aria-hidden="true" /></a></p>
-    <dialog ref={dialog} className="pdf-menu-dialog" aria-labelledby={titleId} onClose={() => setSelected(null)} onKeyDown={handleDialogKeyDown} onClick={(event) => {if (event.target === event.currentTarget) dialog.current?.close();}}>
+    <dialog ref={dialog} id={dialogId} className="pdf-menu-dialog" aria-labelledby={titleId} onClose={() => setSelected(null)} onKeyDown={handleDialogKeyDown} onClick={(event) => {if (event.target === event.currentTarget) dialog.current?.close();}}>
       <div className="pdf-menu-dialog-content">
         <header className="pdf-menu-dialog-header">
           <div><p className="eyebrow">WALTER / PDF</p><h2 id={titleId}>{selected ? t(`names.${selected.id}`) : t('title')}</h2></div>

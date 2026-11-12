@@ -433,7 +433,7 @@ body:has(dialog[open]) { overflow: hidden; }
 .pdf-menus-heading > p { max-width: 410px; font-size: 14px; line-height: 1.8; }
 .pdf-menu-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: start; }
 .pdf-menu-card { border: 1px solid var(--line); background: #fffdf7; min-width: 0; }
-.pdf-menu-cover { position: relative; height: 220px; background: #e8e8dc; overflow: hidden; }
+.pdf-menu-cover { display: block; position: relative; width: 100%; padding: 0; height: 220px; background: #e8e8dc; overflow: hidden; }
 .pdf-menu-cover img { object-fit: cover; }
 .pdf-menu-format { z-index: 1; background: #103f32e6; color: var(--paper); padding: 7px 10px; border: 1px solid #faf8f138; border-radius: 2px; }
 .pdf-menu-format { position: absolute; right: 20px; bottom: 20px; font-size: 10px; letter-spacing: .12em; }
