@@ -28,6 +28,10 @@ export function Header() {
         <div className="header-actions">
           <LanguageSwitcher id="header-language" />
           <a href="tel:+381631011000" className="button button-green header-phone" aria-label={`${hospitality('callLabel')}: 063 101 1000`}><Phone size={17} aria-hidden="true" /><span>063 101 1000</span></a>
+          <Link href="/locations" className="button button-green header-find" aria-label={t('find')}>
+            {t('find')}
+            <ArrowUpRight size={18} aria-hidden="true" />
+          </Link>
           <button type="button" className="icon-button mobile-toggle" aria-label={t('open')} aria-haspopup="dialog" onClick={() => dialog.current?.showModal()}><Menu size={25} /></button>
         </div>
       </header>
@@ -39,8 +43,10 @@ export function Header() {
         <nav>
           {links.map((key) => <Link key={key} href={`/${key}`} onClick={() => dialog.current?.close()}>{t(key)}<ArrowUpRight aria-hidden="true" /></Link>)}
         </nav>
-        <a href="tel:+381631011000" className="button button-green mobile-menu-phone" aria-label={`${hospitality('callLabel')}: 063 101 1000`}><Phone size={19} aria-hidden="true" />063 101 1000</a>
-        <Link href="/locations" className="button button-green" onClick={() => dialog.current?.close()}>{t('find')}<ArrowUpRight size={20} aria-hidden="true" /></Link>
+        <div className="mobile-menu-actions">
+          <a href="tel:+381631011000" className="button button-green mobile-menu-phone" aria-label={`${hospitality('callLabel')}: 063 101 1000`}><Phone size={19} aria-hidden="true" />063 101 1000</a>
+          <Link href="/locations" className="button button-green mobile-menu-find" onClick={() => dialog.current?.close()}>{t('find')}<ArrowUpRight size={20} aria-hidden="true" /></Link>
+        </div>
       </dialog>
     </>
   );

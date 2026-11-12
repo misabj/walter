@@ -46,7 +46,12 @@ export const products = [
   {id: 'breakfast', category: 'breakfast', nameKey: 'menu.breakfastName', copyKey: 'menu.breakfastCopy', image: '/images/food/breakfast.webp'},
   {id: 'soup', category: 'soups', nameKey: 'experience.soupTitle', copyKey: 'experience.soupCopy', image: '/images/food/soup.webp'},
   {id: 'ustipci', category: 'grill', nameKey: 'experience.ustipciTitle', copyKey: 'experience.ustipciCopy', image: '/images/food/ustipci.webp'},
-  {id: 'dessert', category: 'sweet', nameKey: 'menu.dessert', copyKey: 'menu.dessertCopy', image: '/images/food/urmasica.webp'}
+  {id: 'dessert', category: 'sweet', nameKey: 'menu.dessert', copyKey: 'menu.dessertCopy', image: '/images/food/urmasica.webp'},
+  {id: 'cevapi-two', category: 'grill', nameKey: 'menu.cevapi', copyKey: 'menu.cevapiCopy', image: '/images/food/cevapi.webp'},
+  {id: 'breakfast-two', category: 'breakfast', nameKey: 'menu.breakfastName', copyKey: 'menu.breakfastCopy', image: '/images/food/breakfast.webp'},
+  {id: 'soup-two', category: 'soups', nameKey: 'experience.soupTitle', copyKey: 'experience.soupCopy', image: '/images/food/soup.webp'},
+  {id: 'ustipci-two', category: 'grill', nameKey: 'experience.ustipciTitle', copyKey: 'experience.ustipciCopy', image: '/images/food/ustipci.webp'},
+  {id: 'dessert-two', category: 'sweet', nameKey: 'menu.dessert', copyKey: 'menu.dessertCopy', image: '/images/food/urmasica.webp'}
 ] as const;
 
 export type Product = (typeof products)[number];
@@ -61,7 +66,7 @@ export const official = {
   belgradeMenu: '/menus/walter-belgrade-2026.pdf',
   locations: 'https://walter.rs/restorani/',
   careers: 'https://walter.rs/karijera/',
-  jobApplication: 'https://walter.rs/prijava-za-posao/',
+  jobApplication: '/prijava-za-posao',
   hrEmail: 'mailto:hr@walter.rs',
   hrPhone: 'tel:+38162333024',
   gifts: 'https://walter.rs/poklon-galerija/',
