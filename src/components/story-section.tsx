@@ -6,8 +6,7 @@ export async function StorySection() {
   const t = await getTranslations();
   return (
     <section className="story-section section-pad" aria-labelledby="story-title">
-      <p className="eyebrow">{t('story.eyebrow')}</p>
-      <div className="story-media">
+      <div className="story-media brand-pattern">
         <div className="story-media-main" data-image-reveal role="group" aria-label={t('hospitality.filmLabel')}><AmbientVideo variant="story" sizes="(max-width: 760px) 100vw, 90vw" /></div>
         <span className="story-media-year" aria-hidden="true"><small>{t('story.since')}</small><span>2004</span></span>
         <p>{t('story.quote')}</p>
