@@ -1,8 +1,9 @@
-import {mkdir, writeFile} from 'node:fs/promises';
+import {mkdir, readFile, writeFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import sharp from 'sharp';
 
 const source = 'https://walter.rs/restorani/';
+const previous = JSON.parse(await readFile(new URL('../src/data/restaurants.json', import.meta.url), 'utf8'));
 const verifiedAt = new Date().toISOString().slice(0, 10);
 const aliases = {
   'walter-cvetni-trg': 'cvetni-trg',
@@ -73,11 +74,13 @@ async function importCard([, categories, markup]) {
   const image = `/images/restaurants/${slug}.webp`;
   const imageBytes = Buffer.from(await (await request(imageSource)).arrayBuffer());
   await sharp(imageBytes).resize({width: 900, withoutEnlargement: true}).webp({quality: 80}).toFile(join(imageDirectory, `${slug}.webp`));
+  const existing = previous.restaurants.find((restaurant) => restaurant.source === page && restaurant.address === address);
   return {
     slug, name, city, country, countryCode: countryCodes[country], status: 'open',
     ...(address ? {address} : {}),
     ...(telephone ? {telephone, sharedCallCentre: telephone === '+381631011000'} : {}),
-    source: page, image, imageSource, ...(menuUrl ? {menuUrl} : {}), verifiedAt
+    source: page, image, imageSource, ...(menuUrl ? {menuUrl} : {}), verifiedAt,
+    ...(existing?.coordinates ? {coordinates: existing.coordinates, coordinatesSource: existing.coordinatesSource, coordinatesVerifiedAt: existing.coordinatesVerifiedAt} : {})
   };
 }
 

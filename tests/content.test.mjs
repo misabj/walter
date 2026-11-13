@@ -6,6 +6,46 @@ import {filterRestaurants, groupRestaurantsByCity} from '../src/lib/location-sea
 import {products, restaurants} from '../src/lib/content.ts';
 import {handleDialogKeyDown} from '../src/lib/dialog-keyboard.ts';
 import {getRestaurantMenu, restaurantMenus} from '../src/lib/restaurant-menus.ts';
+import {distanceInKm, findNearestRestaurant, restaurantDirections} from '../src/lib/restaurant-location.ts';
+
+test('nearest restaurant uses coordinates and excludes closed or unverified locations', () => {
+  const origin = {latitude: 44.8, longitude: 20.46};
+  const records = [
+    {status: 'open', address: 'Far', coordinates: {latitude: 45.2, longitude: 19.8}},
+    {status: 'coming-soon', address: 'Closed', coordinates: origin},
+    {status: 'open', address: 'No coordinates'},
+    {status: 'open', coordinates: origin},
+    {status: 'open', address: 'Near', coordinates: {latitude: 44.801, longitude: 20.46}}
+  ];
+  const nearest = findNearestRestaurant(records, origin);
+  assert.equal(nearest?.restaurant, records[4]);
+  assert.ok(Math.abs(nearest.distance - 0.1112) < 0.001);
+  assert.equal(distanceInKm(origin, origin), 0);
+  assert.equal(findNearestRestaurant(records.slice(1, 4), origin), undefined);
+  assert.equal(findNearestRestaurant([], origin), undefined);
+  assert.ok(Math.abs(distanceInKm({latitude: 0, longitude: 179.9}, {latitude: 0, longitude: -179.9}) - 22.239) < 0.01);
+});
+
+test('navigation carries explicit shared origin and verified destination, with address-based manual navigation', () => {
+  const restaurant = {address: 'Njegoševa 3', city: 'Beograd', countryCode: 'RS', coordinates: {latitude: 44.8060222, longitude: 20.4651152}};
+  const url = new URL(restaurantDirections(restaurant, {latitude: 44.8, longitude: 20.46}));
+  assert.equal(url.origin, 'https://www.google.com');
+  assert.equal(url.searchParams.get('api'), '1');
+  assert.equal(url.searchParams.get('origin'), '44.8,20.46');
+  assert.equal(url.searchParams.get('destination'), '44.8060222,20.4651152');
+  const manual = new URL(restaurantDirections({...restaurant, coordinates: undefined}));
+  assert.equal(manual.searchParams.has('origin'), false);
+  assert.equal(manual.searchParams.get('destination'), 'Njegoševa 3, Beograd, RS');
+});
+
+test('all mapped open restaurants retain verified pin provenance without inventing coming-soon coordinates', () => {
+  for (const restaurant of restaurants.filter(({status}) => status === 'open')) {
+    assert.ok(restaurant.coordinates, restaurant.slug);
+    assert.ok(restaurant.coordinatesSource?.startsWith('https://www.google.com/maps/embed?'));
+    assert.match(restaurant.coordinatesVerifiedAt, /^\d{4}-\d{2}-\d{2}$/);
+  }
+  assert.equal(restaurants.find(({slug}) => slug === 'amsterdam').coordinates, undefined);
+});
 
 const fixtures = [
   {name: 'Walter · Dorćol', city: 'Beograd', country: 'serbia', address: 'Strahinjića Bana 57'},

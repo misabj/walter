@@ -15,7 +15,13 @@
       "source": "https://walter.rs/portfolio/obrenovac/",
       "image": "/images/restaurants/obrenovac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2026/11/WAL_OBR_ENTERIJER-4-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.6578023,
+        "longitude": 20.2144541
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2838.0242667652255!2d20.21258661829854!3d44.65785586257633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKralja%20Aleksandra%20Prvog%20157%2C%20Obrenovac!5e0!3m2!1ssr!2srs!4v1793884739444!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "bor-2-2",
@@ -30,7 +36,13 @@
       "source": "https://walter.rs/portfolio/bor-2-2/",
       "image": "/images/restaurants/bor-2-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2026/01/Walter-Bor-08-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.0594449,
+        "longitude": 22.1035112
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.126016774704!2d22.1021887!3d44.060106399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b1b3574c1e6f%3A0x9b816c9be2405914!2sWalter%20-%20Bor!5e0!3m2!1ssr!2srs!4v1769597105018!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "arandjelovac",
@@ -45,7 +57,13 @@
       "source": "https://walter.rs/portfolio/arandjelovac/",
       "image": "/images/restaurants/arandjelovac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2026/01/ARANDJELOVAC-25.12-12-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.302315,
+        "longitude": 20.5875551
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.360786258775!2d20.582898176557528!3d44.30253301019226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574d001f25418f%3A0xfb138ed83ce3949!2sWalter!5e0!3m2!1ssr!2srs!4v1768392181466!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "cacak",
@@ -60,7 +78,13 @@
       "source": "https://walter.rs/portfolio/cacak/",
       "image": "/images/restaurants/cacak.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/09/DJI_0174-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.8903525,
+        "longitude": 20.3700474
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2875.3828871288515!2d20.36868274198184!3d43.88933608853595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577331355a5005%3A0x48adb95ad18d392f!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1758280439335!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-nis-3",
@@ -75,7 +99,13 @@
       "source": "https://walter.rs/portfolio/walter-nis-3/",
       "image": "/images/restaurants/walter-nis-3.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/09/WALTER-OTVARANJE-NIS-9.9-9-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.3375699,
+        "longitude": 21.8800707
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23215.089490523646!2d21.84196293354034!3d43.33757062932476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b72b31b2ff7d%3A0x2e8d6ae327f1fe2!2sWalter%20BBQ%20Tempo!5e0!3m2!1ssr!2srs!4v1757671753085!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tempo-plus-kraljevo",
@@ -90,7 +120,13 @@
       "source": "https://walter.rs/portfolio/walter-tempo-plus-kraljevo/",
       "image": "/images/restaurants/walter-tempo-plus-kraljevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/09/1000001288-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.7398131,
+        "longitude": 20.665375
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509.5749307993035!2d20.66496468613398!3d43.73982036538708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47570100002ef383%3A0x7253db5ea3899e4a!2sWalter!5e0!3m2!1ssr!2srs!4v1758285769474!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-stari-grad",
@@ -105,7 +141,13 @@
       "source": "https://walter.rs/portfolio/walter-stari-grad/",
       "image": "/images/restaurants/walter-stari-grad.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/09/DSC07733-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8171048,
+        "longitude": 20.4560701
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5660.253956707535!2d20.454222896266348!3d44.818977734282505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6500791cbdfb%3A0xa5a4bc2ec60752c7!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1757662249855!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "cvetni-trg",
@@ -120,7 +162,13 @@
       "source": "https://walter.rs/portfolio/walter-cvetni-trg/",
       "image": "/images/restaurants/cvetni-trg.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/IMG_5383-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8060222,
+        "longitude": 20.4651152
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.762815505202!2d20.46254027605771!3d44.80602217107088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7b9371d079e3%3A0xe852274569ed79e1!2sWalter%20BBQ%20Cvetni%20trg!5e0!3m2!1ssr!2srs!4v1754899928940!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-usce",
@@ -135,7 +183,13 @@
       "source": "https://walter.rs/portfolio/walter-usce/",
       "image": "/images/restaurants/walter-usce.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/Usce-cover-sajt-600x403.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.81542169999999,
+        "longitude": 20.4368269
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.30151691707!2d20.4368269!3d44.815421699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a655a34d52303%3A0x6cb8ce7932315d1d!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754899811779!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-kraljevo",
@@ -150,7 +204,13 @@
       "source": "https://walter.rs/portfolio/walter-kraljevo/",
       "image": "/images/restaurants/walter-kraljevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/07/WhatsApp-Image-2025-05-29-at-16.26.37_ea5ff7d4-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.7239697,
+        "longitude": 20.6874384
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.354131050019!2d20.6874384!3d43.7239697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475701855e1f3b89%3A0x7644deecb66e5213!2sWalter%20BBQ%20Kraljevo!5e0!3m2!1ssr!2srs!4v1754556235706!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-mirijevo",
@@ -165,7 +225,13 @@
       "source": "https://walter.rs/portfolio/walter-mirijevo/",
       "image": "/images/restaurants/walter-mirijevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/07/viber_image_2025-05-30_10-46-24-328-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.793897,
+        "longitude": 20.526269
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.3577672979145!2d20.526269!3d44.793897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7174deec1cff%3A0x36b5a3bc22a4bfef!2sWalter%20BBQ%20Mirijevo!5e0!3m2!1ssr!2srs!4v1754564127120!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-subotica-2",
@@ -180,7 +246,13 @@
       "source": "https://walter.rs/portfolio/walter-subotica-2/",
       "image": "/images/restaurants/walter-subotica-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/03/slika-7-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 46.0860982,
+        "longitude": 19.6805795
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.2445866829444!2d19.678004576633167!3d46.086101891729626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743612bac0581f5%3A0x4fb87deac7fe218a!2sWalter%20BBQ%20Subotica!5e0!3m2!1ssr!2srs!4v1754567625271!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-doboj-city-park",
@@ -195,7 +267,13 @@
       "source": "https://walter.rs/portfolio/walter-doboj-city-park/",
       "image": "/images/restaurants/walter-doboj-city-park.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/Doboj-Walter-sajt-2-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7200303,
+        "longitude": 18.0839943
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.9794811755874!2d18.0839943!3d44.7200303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e8300145453b5%3A0xe86e4847b935f23d!2sWalter%20BBQ%20Doboj!5e0!3m2!1ssr!2srs!4v1754900307596!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-east-sarajevo-city-park",
@@ -210,7 +288,13 @@
       "source": "https://walter.rs/portfolio/walter-east-sarajevo-city-park/",
       "image": "/images/restaurants/walter-east-sarajevo-city-park.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2026/10/145-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.8197221,
+        "longitude": 18.360344
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.7412650496462!2d18.35776909383392!3d43.819725941618366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9006ecc17f5%3A0x3e185842d8dd5fb7!2sWalter%20-%20Isto%C4%8Dno%20Sarajevo!5e0!3m2!1ssr!2srs!4v1792402194155!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "delta-planet-banja-luka",
@@ -225,7 +309,13 @@
       "source": "https://walter.rs/portfolio/walter-delta-planet-banja-luka/",
       "image": "/images/restaurants/delta-planet-banja-luka.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/09/banja-luka-3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7800528,
+        "longitude": 17.2068094
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.0309575084334!2d17.204236665271193!3d44.78017420549113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e0347d9da5463%3A0x1b2b1ec5eb0f475c!2sWalter%20BBQ%20Banja%20Luka!5e0!3m2!1ssr!2srs!4v1754567839454!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-big-fashion-podgorica-bivsi-city-mall-2",
@@ -240,7 +330,13 @@
       "source": "https://walter.rs/portfolio/walter-big-fashion-podgorica-bivsi-city-mall-2/",
       "image": "/images/restaurants/walter-big-fashion-podgorica-bivsi-city-mall-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/09/slika-4-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 42.4384602,
+        "longitude": 19.2369035
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.495885880621!2d19.2343285764814!3d42.43846413014397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb001316d985%3A0x31d148584ac0be19!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754567987798!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-novi-beograd",
@@ -255,7 +351,13 @@
       "source": "https://walter.rs/portfolio/walter-novi-beograd/",
       "image": "/images/restaurants/walter-novi-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/08/walter-imel-3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8140377,
+        "longitude": 20.4267208
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3710327888502!2d20.42204573750496!3d44.81400532751168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6586dd495a95%3A0xd2956203da6a54f0!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754568227638!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-kragujevac",
@@ -270,7 +372,13 @@
       "source": "https://walter.rs/portfolio/walter-kragujevac/",
       "image": "/images/restaurants/walter-kragujevac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/07/walter-kragujevac-1-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.0083585,
+        "longitude": 20.8967656
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2869.6375197431!2d20.891805790289865!3d44.0082187548579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475721c65c76b11b%3A0xae91fb330fa6b819!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754568434038!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-mladenovac",
@@ -285,7 +393,13 @@
       "source": "https://walter.rs/portfolio/walter-mladenovac/",
       "image": "/images/restaurants/walter-mladenovac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/06/mladenovac-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.4931797,
+        "longitude": 20.6570121
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.072389710175!2d20.654437176565537!3d44.493183497699725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759f9224821d99b%3A0x31a59b215ec2853f!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754568724303!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-barajevo",
@@ -300,7 +414,13 @@
       "source": "https://walter.rs/portfolio/walter-barajevo/",
       "image": "/images/restaurants/walter-barajevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/05/barajevo3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.5789889,
+        "longitude": 20.4108137
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.900194739057!2d20.409440376569087!3d44.57861059208871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a094028248961%3A0x2e02ef1ef1363ac5!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754569630071!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-piramida-2",
@@ -315,7 +435,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-piramida-2/",
       "image": "/images/restaurants/walter-tc-piramida-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/04/Пирамида-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.80244709999999,
+        "longitude": 20.3858049
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.938063120692!2d20.383229976578477!3d44.80245087734725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6fad81394b51%3A0x155afcdbfbfaa2f8!2sWalter%20BBQ%20TC%20Piramida!5e0!3m2!1ssr!2srs!4v1754569818831!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-big-pancevo-2",
@@ -330,7 +456,13 @@
       "source": "https://walter.rs/portfolio/walter-big-pancevo-2/",
       "image": "/images/restaurants/walter-big-pancevo-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/04/pancevo-2-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8675977,
+        "longitude": 20.6600331
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.739317015183!2d20.657458176581315!3d44.8676014730461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7fa227faf915%3A0xc7196fb3b6466721!2sWalter%20BBQ%20BIG%20Pan%C4%8Devo!5e0!3m2!1ssr!2srs!4v1754569917126!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "cewapi-ljubljana-centar-2",
@@ -345,7 +477,13 @@
       "source": "https://walter.rs/portfolio/cewapi-ljubljana-centar-2/",
       "image": "/images/restaurants/cewapi-ljubljana-centar-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/01/Naslovna-3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 46.0527476,
+        "longitude": 14.5024398
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.917123808586!2d14.499864876631813!3d46.05275129397721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47652d003c8e1d31%3A0x86ff620b5da9a413!2sCeWapi!5e0!3m2!1ssr!2srs!4v1754570140310!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-aerodrom-nikola-tesla",
@@ -360,7 +498,13 @@
       "source": "https://walter.rs/portfolio/walter-aerodrom-nikola-tesla/",
       "image": "/images/restaurants/walter-aerodrom-nikola-tesla.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/01/naslovna-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8180982,
+        "longitude": 20.2896195
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.169963635538!2d20.287044576579213!3d44.8181019763145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a69a9153ed7cf%3A0x4acf849620ff9823!2sWalter%20BBQ%20Aerodrom%20Nikola%20Tesla!5e0!3m2!1ssr!2srs!4v1754570639286!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-krusevac",
@@ -375,7 +519,13 @@
       "source": "https://walter.rs/portfolio/walter-krusevac/",
       "image": "/images/restaurants/walter-krusevac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2024/01/krusevac-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.5678467,
+        "longitude": 21.3371484
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.8701453574828!2d21.33773381824009!3d43.56740040964828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475687d4fa0c1ff7%3A0xb587e054af4371d4!2sWalter%20BBQ%20Kru%C5%A1evac!5e0!3m2!1ssr!2srs!4v1754570947550!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "citypark-ljubljana",
@@ -390,7 +540,13 @@
       "source": "https://walter.rs/portfolio/cewapi-citypark-ljubljana/",
       "image": "/images/restaurants/citypark-ljubljana.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/11/btc-walter-cewapi-ljubljana-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 46.0689077,
+        "longitude": 14.5452019
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2768.1068097175275!2d14.542626976632476!3d46.068911392888246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476533568d4b90ed%3A0x77832090eb580906!2sCeWapi!5e0!3m2!1ssr!2srs!4v1754571003957!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-kotor-3",
@@ -405,7 +561,13 @@
       "source": "https://walter.rs/portfolio/walter-kotor-3/",
       "image": "/images/restaurants/walter-kotor-3.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/A-004-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 42.42785809999999,
+        "longitude": 18.7704737
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.99421278194!2d18.767898775924824!3d42.427858071186726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c3304fd93380d%3A0xe4eac48c625318a3!2sWalter%20BBQ%20Kotor!5e0!3m2!1ssr!2srs!4v1754900946467!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-podgorica",
@@ -420,7 +582,13 @@
       "source": "https://walter.rs/portfolio/walter-podgorica/",
       "image": "/images/restaurants/walter-podgorica.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/09/slik-2-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 42.4219637,
+        "longitude": 19.2160025
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.270932198467!2d19.213427576480676!3d42.421967631187556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb02b5135ae7%3A0x273f2cc6a189521b!2sWalter%20BBQ%20Donja%20gorica!5e0!3m2!1ssr!2srs!4v1754571204846!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zabljak-2",
@@ -435,7 +603,13 @@
       "source": "https://walter.rs/portfolio/walter-zabljak-2/",
       "image": "/images/restaurants/walter-zabljak-2.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/09/slika-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.1524514,
+        "longitude": 19.1299526
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2910.7177804953712!2d19.127377676510243!3d43.15245528467282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134d3957ab681cdf%3A0x5092acff51d8d36a!2sWalter%20BBQ%20%C5%BDabljak!5e0!3m2!1ssr!2srs!4v1754571311198!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-park-surcin-beograd",
@@ -450,7 +624,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-park-surcin-beograd/",
       "image": "/images/restaurants/walter-tc-park-surcin-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/05/surcin-600x403.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.793036,
+        "longitude": 20.2728576
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.3998242383404!2d20.270282676578105!3d44.79303977796824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a691ac3ccae07%3A0xd1afc13a44a7e49d!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754571375901!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-big-pazova-nova-pazova",
@@ -465,7 +645,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-big-pazova-nova-pazova/",
       "image": "/images/restaurants/walter-tc-big-pazova-nova-pazova.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/04/viber_slika_2023-04-13_10-04-10-403-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.9549812,
+        "longitude": 20.2010929
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.4433446470443!2d20.199044676584922!3d44.95498296726969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a5927fab537b7%3A0xe42d07b31065ea5!2sWalter%20BBQ%20Nova%20Pazova!5e0!3m2!1ssr!2srs!4v1754571481550!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-brcko",
@@ -480,7 +666,13 @@
       "source": "https://walter.rs/portfolio/walter-brcko/",
       "image": "/images/restaurants/walter-brcko.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/04/viber_slika_2023-04-03_16-28-07-073-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.86262019999999,
+        "longitude": 18.8292206
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.984949949809!2d18.826671276581095!3d44.86260117337643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c0949c85251a5%3A0xf5b9105975629c74!2sWalter%20BBQ%20Br%C4%8Dko!5e0!3m2!1ssr!2srs!4v1754571560639!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-gornji-milanovac",
@@ -495,7 +687,13 @@
       "source": "https://walter.rs/portfolio/walter-gornji-milanovac/",
       "image": "/images/restaurants/walter-gornji-milanovac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2023/01/gornji-milanovac-walter-600x403.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.0319324,
+        "longitude": 20.4723005
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.4898215198236!2d20.469725576546292!3d44.031936227852555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47576b8821c5d63f%3A0xaeb093d0d0c2fe3d!2sWalter%20BBQ%20Gornji%20Milanovac!5e0!3m2!1ssr!2srs!4v1754571676462!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-kaludjerica",
@@ -510,7 +708,13 @@
       "source": "https://walter.rs/portfolio/walter-kaludjerica/",
       "image": "/images/restaurants/walter-kaludjerica.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/12/kaludjerica-2-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7637276,
+        "longitude": 20.5521339
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.8373685627544!2d20.549558976576794!3d44.76373137990125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7717d30d90d5%3A0x3b8b190c46456890!2sWalter%20BBQ%20Kalu%C4%91erica!5e0!3m2!1ssr!2srs!4v1754571915846!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-stop-shop-sabac",
@@ -525,7 +729,13 @@
       "source": "https://walter.rs/portfolio/walter-stop-shop-sabac/",
       "image": "/images/restaurants/walter-stop-shop-sabac.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/10/SABAC-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7534655,
+        "longitude": 19.6629429
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.340537930855!2d19.660367976576424!3d44.7534692805779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475bcb25c9c48f29%3A0xb5883467930b2f55!2sWalter%20BBQ%20%C5%A0abac!5e0!3m2!1ssr!2srs!4v1754571974382!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-smederevo",
@@ -540,7 +750,13 @@
       "source": "https://walter.rs/portfolio/walter-smederevo/",
       "image": "/images/restaurants/walter-smederevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/10/2-1-600x403.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.6645484,
+        "longitude": 20.9290835
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.6964971698067!2d20.926508576572637!3d44.6645521864355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4750935a59fa1b6f%3A0x66fa3dd40b7c4621!2sWalter%20BBQ%20Smederevo!5e0!3m2!1ssr!2srs!4v1754572067551!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zlatibor",
@@ -555,7 +771,13 @@
       "source": "https://walter.rs/portfolio/walter-zlatibor/",
       "image": "/images/restaurants/walter-zlatibor.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/10/zlatibor-3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.7249408,
+        "longitude": 19.6956734
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.3072054439526!2d19.693098476533667!3d43.724944647787204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47582fb12e40b631%3A0x456db40c69ee660!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572138222!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-beo-shopping-centar-beograd",
@@ -570,7 +792,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-beo-shopping-centar-beograd/",
       "image": "/images/restaurants/walter-tc-beo-shopping-centar-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_BEO_1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7867881,
+        "longitude": 20.5016329
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.7063425687084!2d20.496761990521254!3d44.78679180379896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7152a9c66215%3A0x34b8f070365a7db9!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754571814669!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-stadion-vozdovac-beograd",
@@ -585,7 +813,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-stadion-vozdovac-beograd/",
       "image": "/images/restaurants/walter-tc-stadion-vozdovac-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_STADION-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.775008,
+        "longitude": 20.4901606
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.2841652504703!2d20.487585676577414!3d44.77501177915735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71075af80789%3A0x4975acf7946122e5!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572211406!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-roda-beograd",
@@ -600,7 +834,13 @@
       "source": "https://walter.rs/portfolio/walter-roda-beograd/",
       "image": "/images/restaurants/walter-roda-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/viber_slika_2022-10-05_14-18-18-292-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8099461,
+        "longitude": 20.3973788
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.5700656286263!2d20.394803876578806!3d44.80994987685253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f569b7d72cb%3A0x7c40146691b2b637!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572503744!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-stepa-beograd",
@@ -615,7 +855,13 @@
       "source": "https://walter.rs/portfolio/walter-stepa-beograd/",
       "image": "/images/restaurants/walter-stepa-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_SLJ_7-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7621198,
+        "longitude": 20.4875701
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.9162079156736!2d20.484995176576835!3d44.76212358000726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71c648c75cd1%3A0x61bc822b8df39dd!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572589055!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-galerija-beograd",
@@ -630,7 +876,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-galerija-beograd/",
       "image": "/images/restaurants/walter-tc-galerija-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/wlt_gal_2_optimized-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8036824,
+        "longitude": 20.445192
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.877446733886!2d20.44261707657851!3d44.803686177265696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71c85dba5977%3A0x157c066b23e37c8b!2sWalter%20BBQ%20Galerija%20BW!5e0!3m2!1ssr!2srs!4v1754572648287!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-delta-city-beograd",
@@ -645,7 +897,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-delta-city-beograd/",
       "image": "/images/restaurants/walter-tc-delta-city-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_DLT_1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8055258,
+        "longitude": 20.4048115
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.7869883268527!2d20.402236576578655!3d44.80552957714416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f43ed838c23%3A0xa26bcda3c2420c22!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572713336!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-banovo-brdo-beograd",
@@ -660,7 +918,13 @@
       "source": "https://walter.rs/portfolio/walter-banovo-brdo-beograd/",
       "image": "/images/restaurants/walter-banovo-brdo-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_BB_5-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.78275,
+        "longitude": 20.4163989
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.9044254625187!2d20.413823976577618!3d44.78275377864679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6fa928f9a76d%3A0xb775c1aefe98bc5a!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572787966!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-bn-bos-beograd",
@@ -675,7 +939,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-bn-bos-beograd/",
       "image": "/images/restaurants/walter-tc-bn-bos-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_BNBOS_2-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8618101,
+        "longitude": 20.3672785
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.0236230286096!2d20.36470357658096!3d44.86181387342827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a67a364a84c7f%3A0x358b34e91b040229!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573028455!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-ada-mall-beograd",
@@ -690,7 +960,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-ada-mall-beograd/",
       "image": "/images/restaurants/walter-tc-ada-mall-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_ADA_1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7874651,
+        "longitude": 20.4185692
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.673127707837!2d20.415994276577848!3d44.787468878335815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a65abb0c3c173%3A0x5742dca6fe63413!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573070687!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zemun-beograd-3",
@@ -705,7 +981,13 @@
       "source": "https://walter.rs/portfolio/walter-zemun-beograd-3/",
       "image": "/images/restaurants/walter-zemun-beograd-3.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/IMG-5ac439eef3123abab457131e82b137f8-V-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8412029,
+        "longitude": 20.3927445
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.035686061513!2d20.3878735905376!3d44.841206600206924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a65f1a413e283%3A0x1003339cbb173353!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754896189165!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zemun-beograd",
@@ -720,7 +1002,13 @@
       "source": "https://walter.rs/portfolio/walter-zemun-beograd/",
       "image": "/images/restaurants/walter-zemun-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/000003-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8452073,
+        "longitude": 20.4132625
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.839047228579!2d20.41068757658026!3d44.845211074524876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a65f9d23d9521%3A0x97991970774527ab!2sWalter%20BBQ%20Zemun!5e0!3m2!1ssr!2srs!4v1754573171807!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-rakovica-beograd",
@@ -735,7 +1023,13 @@
       "source": "https://walter.rs/portfolio/walter-rakovica-beograd/",
       "image": "/images/restaurants/walter-rakovica-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/Nslovna-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7421575,
+        "longitude": 20.4394299
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.8948844120155!2d20.436854976575972!3d44.74216128132324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a719dd8fff9ed%3A0x3dbcf3b06d581635!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573510256!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-savski-venac-beograd",
@@ -750,7 +1044,13 @@
       "source": "https://walter.rs/portfolio/walter-savski-venac-beograd/",
       "image": "/images/restaurants/walter-savski-venac-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/IMG_7851-HDR-min-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8015518,
+        "longitude": 20.4640331
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.981994825621!2d20.46145817657848!3d44.80155557740637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71757e24ff61%3A0x8226f428b300b05e!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573567984!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-borca-beograd",
@@ -765,7 +1065,13 @@
       "source": "https://walter.rs/portfolio/walter-borca-beograd/",
       "image": "/images/restaurants/walter-borca-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/IMG_7714-HDR-min-1-1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8876883,
+        "longitude": 20.458795
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.752176535601!2d20.456220076582063!3d44.88769207171875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a63ee0c77abc7%3A0x7d45f7e70ee60b5c!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573657463!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-big-karaburma-beograd",
@@ -780,7 +1086,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-big-karaburma-beograd/",
       "image": "/images/restaurants/walter-tc-big-karaburma-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_KAR_5-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8170887,
+        "longitude": 20.5094174
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.219512623066!2d20.50684247657909!3d44.81709247638104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7af50271eec5%3A0xed5193d4ce3f3cd8!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573709839!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-vracar-beograd",
@@ -795,7 +1107,13 @@
       "source": "https://walter.rs/portfolio/walter-vracar-beograd/",
       "image": "/images/restaurants/walter-vracar-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/IMG_6964-HDR-min-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7979568,
+        "longitude": 20.4742556
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.158391840542!2d20.471680676578377!3d44.79796057764354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a700b28ec9467%3A0x8d1132d8435fea91!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573799143!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-palilula-beograd",
@@ -810,7 +1128,13 @@
       "source": "https://walter.rs/portfolio/walter-palilula-beograd/",
       "image": "/images/restaurants/walter-palilula-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_27M_3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8108111,
+        "longitude": 20.4746069
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.5276144722543!2d20.472031976578876!3d44.81081487679547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa340a1cb13%3A0xb650293697f94657!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573859351!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "dorcol",
@@ -825,7 +1149,13 @@
       "source": "https://walter.rs/portfolio/walter-dorcol-beograd/",
       "image": "/images/restaurants/dorcol.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/07/walter-strahinjica-bana-5-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8209658,
+        "longitude": 20.4626916
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.5276144722543!2d20.472031976578876!3d44.81081487679547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab6bb4a9d1f%3A0x4339abeff4f1a7b5!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573917814!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zeleznik-beograd",
@@ -840,7 +1170,13 @@
       "source": "https://walter.rs/portfolio/walter-zeleznik-beograd/",
       "image": "/images/restaurants/walter-zeleznik-beograd.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/07/Radnicka-600x403.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.7300193,
+        "longitude": 20.3834554
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.489810192117!2d20.378584490504355!3d44.7300230075431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6df0dbc1f7b9%3A0x23da871cc95d7b16!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754573980031!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-bigfashion-novi-sad",
@@ -855,7 +1191,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-bigfashion-novi-sad/",
       "image": "/images/restaurants/walter-tc-bigfashion-novi-sad.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/7-min-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 45.2452999,
+        "longitude": 19.8439925
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.123089802139!2d19.841417576597237!3d45.24530364801678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b11c11fcbc8a7%3A0x81e1307bb7de54c4!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754574059927!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-tc-big-novi-sad",
@@ -870,7 +1212,13 @@
       "source": "https://walter.rs/portfolio/walter-tc-big-novi-sad/",
       "image": "/images/restaurants/walter-tc-big-novi-sad.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/WLT_BNS_1-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 45.2765669,
+        "longitude": 19.8257669
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.576516324316!2d19.823191976598558!3d45.276570645937525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1173913f3f2d%3A0xbe87782db959f852!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754574142814!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-pancevo",
@@ -885,7 +1233,13 @@
       "source": "https://walter.rs/portfolio/walter-pancevo/",
       "image": "/images/restaurants/walter-pancevo.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/BBP09818-min-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 44.8675991,
+        "longitude": 20.6599734
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.4676726000366!2d20.640071976581467!3d44.87313077268085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7f45f38f2c51%3A0x83e8a07d53c27320!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754574198702!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-zrenjanin",
@@ -900,7 +1254,13 @@
       "source": "https://walter.rs/portfolio/walter-zrenjanin/",
       "image": "/images/restaurants/walter-zrenjanin.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2022/08/1-min-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 45.380805,
+        "longitude": 20.3921734
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.4145035583033!2d20.389598476602984!3d45.380808738998404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475adbb97d0564e1%3A0x454cc4eb8690e270!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754574237526!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     },
     {
       "slug": "walter-nis",
@@ -915,7 +1275,13 @@
       "source": "https://walter.rs/portfolio/walter-nis/",
       "image": "/images/restaurants/walter-nis.webp",
       "imageSource": "https://walter.rs/wp-content/uploads/2025/08/Nis-Walter-3-900x604.webp",
-      "verifiedAt": "2026-11-12"
+      "verifiedAt": "2026-11-12",
+      "coordinates": {
+        "latitude": 43.3251149,
+        "longitude": 21.9112273
+      },
+      "coordinatesSource": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.4811982204737!2d21.908652376517377!3d43.32511877358792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b1bf4a5f0ddf%3A0x31cdf4c420cc5510!2sWalter%20BBQ!5e0!3m2!1ssr!2srs!4v1754572401046!5m2!1ssr!2srs",
+      "coordinatesVerifiedAt": "2026-11-13"
     }
   ]
 }
