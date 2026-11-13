@@ -16,7 +16,16 @@ const manrope = localFont({
   weight: '200 800'
 });
 
-export const metadata: Metadata = {metadataBase: siteUrl};
+export const metadata: Metadata = {
+  metadataBase: siteUrl,
+  icons: {
+    icon: [
+      {url: '/favicon.png', sizes: '32x32', type: 'image/png'},
+      {url: '/icon.png', sizes: '192x192', type: 'image/png'}
+    ],
+    apple: [{url: '/apple-icon.png', sizes: '180x180', type: 'image/png'}]
+  }
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));

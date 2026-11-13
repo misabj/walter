@@ -164,7 +164,9 @@ npm run build
 npm start
 ```
 
-Default entry redirects to `/en`. Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SITE_URL` to the final HTTPS origin **before building**. This origin is used in static canonical URLs, language alternates, social images and the sitemap. When it is unset, the prototype intentionally emits `noindex` and disallows crawling. Never commit secrets.
+Default entry redirects to `/en`. Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SITE_URL` to the final HTTPS origin **before building**. This origin is used in static canonical URLs, language alternates, social images and the sitemap. Without an explicit origin, Vercel deployments use `VERCEL_PROJECT_PRODUCTION_URL`, then `VERCEL_URL`; local development falls back to `http://localhost:3000`. Without `NEXT_PUBLIC_SITE_URL`, the prototype still intentionally emits `noindex` and disallows crawling. Never commit secrets.
+
+Browser and Apple touch icons are local copies of the official Walter site's 32, 192 and 180 px PNG icons (`https://walter.rs/wp-content/uploads/2025/07/cropped-faviconw-2-{size}x{size}.png`). The localized 1200x630 Open Graph PNG combines the existing cevapi photograph with the white Walter logo, green gradient and translated headline. Twitter large-image metadata uses the same preview. These tags are server-rendered so link-preview crawlers do not need JavaScript. Share the public HTTPS URL, not a localhost address; messaging apps may cache older thumbnails, and protected preview deployments are not publicly crawlable.
 
 Deploy to Vercel using the standard Next.js preset. No custom build configuration is necessary. For a self-hosted deployment, run the production build and `npm start`. The first image request generates an optimized derivative; a CDN should cache subsequent requests.
 
