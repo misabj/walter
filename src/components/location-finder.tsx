@@ -53,7 +53,7 @@ export function LocationFinder({preview = false}: {preview?: boolean}) {
       {preview ? <div className="restaurant-grid">{filtered.slice(0, 6).map((restaurant) => <RestaurantCard restaurant={restaurant} key={restaurant.slug} />)}</div>
         : <div className="city-groups">{groups.map((group) => <section key={group.id} className="city-group" aria-labelledby={`city-${group.id}`}>
           <div className="city-group-heading"><div><p className="eyebrow">{t(`directory.countryNames.${group.country}`)}</p><h3 id={`city-${group.id}`}>{group.city}</h3></div><span>{t('directory.results', {count: group.restaurants.length})}</span></div>
-          <div className="restaurant-grid">{group.restaurants.map((restaurant) => <RestaurantCard restaurant={restaurant} grouped key={restaurant.slug} />)}</div>
+          <div className={`restaurant-grid${group.restaurants.length === 1 ? ' restaurant-grid-single' : group.restaurants.length === 2 ? ' restaurant-grid-pair' : ''}`}>{group.restaurants.map((restaurant) => <RestaurantCard restaurant={restaurant} grouped inlineMap={filtered.length === 1} imageSizes={group.restaurants.length === 1 ? '(max-width: 760px) 88vw, 47vw' : group.restaurants.length === 2 ? '(max-width: 760px) 88vw, 44vw' : undefined} key={restaurant.slug} />)}</div>
         </section>)}</div>}
       {filtered.length === 0 && <p className="empty-results">{t('locations.noResults')}</p>}
       {preview && <div className="directory-more"><Link href="/locations" className="button button-green">{t('directory.viewAll')}<ArrowUpRight size={19} aria-hidden="true" /></Link><p>{t('directory.preview', {shown: Math.min(filtered.length, 6), total: filtered.length})}</p></div>}
