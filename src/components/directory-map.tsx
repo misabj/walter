@@ -97,6 +97,5 @@ export function DirectoryMap({restaurants, allRestaurants, resetFilters}: {
         </div>
       </aside>
     </div>
-    <p className="directory-map-notice">{t('directory.finder.notice')}</p>
   </div>;
 }
