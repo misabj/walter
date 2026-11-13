@@ -3,9 +3,9 @@ import {createHash} from 'node:crypto';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {filterRestaurants, groupRestaurantsByCity} from '../src/lib/location-search.ts';
-import {restaurants} from '../src/lib/content.ts';
+import {products, restaurants} from '../src/lib/content.ts';
 import {handleDialogKeyDown} from '../src/lib/dialog-keyboard.ts';
-import {restaurantMenus} from '../src/lib/restaurant-menus.ts';
+import {getRestaurantMenu, restaurantMenus} from '../src/lib/restaurant-menus.ts';
 
 const fixtures = [
   {name: 'Walter · Dorćol', city: 'Beograd', country: 'serbia', address: 'Strahinjića Bana 57'},
@@ -74,6 +74,31 @@ test('the coming-soon campaign cannot leak invented operational details', () => 
   }
 });
 
+test('restaurant menu assignments use the supplied groups rather than city or country guesses', () => {
+  const assignedSlugs = new Set();
+  for (const menu of restaurantMenus) {
+    for (const slug of menu.restaurantSlugs) {
+      assert.equal(assignedSlugs.has(slug), false, `Duplicate menu assignment: ${slug}`);
+      assignedSlugs.add(slug);
+      assert.equal(restaurants.find((restaurant) => restaurant.slug === slug)?.country, 'serbia');
+      assert.equal(getRestaurantMenu(slug)?.id, menu.id);
+    }
+  }
+  for (const [slug, menuId] of [
+    ['dorcol', 'centralni'], ['cvetni-trg', 'centralni'],
+    ['walter-tc-stadion-vozdovac-beograd', 'centralni'],
+    ['walter-tc-beo-shopping-centar-beograd', 'trgovacki'],
+    ['walter-tc-bigfashion-novi-sad', 'trgovacki'],
+    ['walter-mladenovac', 'regionalni'], ['walter-nis', 'regionalni'],
+    ['walter-zlatibor', 'zlatibor'], ['walter-aerodrom-nikola-tesla', 'aerodrom']
+  ]) {
+    assert.equal(getRestaurantMenu(slug)?.id, menuId);
+  }
+  for (const slug of ['walter-nis-3', 'walter-tempo-plus-kraljevo', 'walter-stari-grad', 'citypark-ljubljana', 'amsterdam', 'unknown']) {
+    assert.equal(getRestaurantMenu(slug), undefined);
+  }
+});
+
 test('dialog keyboard boundaries wrap focus in both directions and Escape closes', () => {
   const previous = Object.getOwnPropertyDescriptor(globalThis, 'document');
   const document = {activeElement: null};
@@ -121,4 +146,23 @@ test('every implemented locale supplies exactly the same nonempty UI dictionary'
     assert.deepEqual(keys(dictionary), keys(dictionaries[0]));
     assert.ok(!JSON.stringify(dictionary).includes(':""'));
   }
+});
+
+test('every dish resolves to its own local photograph and translated card text', async () => {
+  const imageHashes = new Set();
+  const dictionaries = await Promise.all(['en', 'sr', 'de', 'nl', 'sl', 'bs'].map(async (locale) => JSON.parse(await readFile(new URL(`../src/messages/${locale}.json`, import.meta.url), 'utf8'))));
+  for (const product of products) {
+    const image = await readFile(new URL(`../public${product.image}`, import.meta.url));
+    assert.equal(image.subarray(0, 4).toString(), 'RIFF');
+    assert.equal(image.subarray(8, 12).toString(), 'WEBP');
+    imageHashes.add(createHash('sha256').update(image).digest('hex'));
+    for (const dictionary of dictionaries) {
+      for (const key of [product.nameKey, product.copyKey]) {
+        const [namespace, message] = key.split('.');
+        assert.equal(typeof dictionary[namespace]?.[message], 'string', `Missing dish text: ${key}`);
+        assert.ok(dictionary[namespace][message].trim().length > 0);
+      }
+    }
+  }
+  assert.equal(imageHashes.size, products.length);
 });

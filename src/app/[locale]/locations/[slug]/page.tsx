@@ -3,6 +3,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {ArrowUpRight, MapPin, Phone} from 'lucide-react';
 import {restaurants} from '@/lib/content';
+import {getRestaurantMenu} from '@/lib/restaurant-menus';
 import {pageMetadata, siteUrl} from '@/lib/seo';
 import {routing} from '@/i18n/routing';
 import {Link} from '@/i18n/navigation';
@@ -30,6 +31,8 @@ export default async function RestaurantPage({params}: Props) {
   if (!hasLocale(routing.locales, locale) || !restaurant) notFound();
   setRequestLocale(locale);
   const t = await getTranslations();
+  const menu = getRestaurantMenu(slug);
+  const menuHref = menu ? `/menu?menu=${menu.id}` : '/menu';
   const url = new URL(`/${locale}/locations/${slug}`, siteUrl).href;
   const schema = restaurant.status === 'open' && restaurant.address ? {
     '@context': 'https://schema.org',
@@ -38,7 +41,7 @@ export default async function RestaurantPage({params}: Props) {
     url,
     telephone: restaurant.telephone,
     address: {'@type': 'PostalAddress', streetAddress: restaurant.address, addressLocality: restaurant.city, addressCountry: restaurant.countryCode},
-    ...(restaurant.menuUrl ? {hasMenu: restaurant.menuUrl} : {})
+    ...(menu ? {hasMenu: new URL(`/${locale}${menuHref}`, siteUrl).href} : {})
   } : null;
   return <main id="main" tabIndex={-1}>
     {schema && <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema).replace(/</g, '\\u003c')}} />}
@@ -54,9 +57,8 @@ export default async function RestaurantPage({params}: Props) {
           <div><h2>{t('locations.hours')}</h2><p>{t('locations.unconfirmed')}</p>
             {restaurant.telephone && <a className="text-link" href={`tel:${restaurant.telephone}`}>{t(restaurant.sharedCallCentre ? 'locations.callCenter' : 'locations.call')}<Phone size={17} aria-hidden="true" /></a>}</div>
           <div><h2>{t('nav.menu')}</h2><p>{t('menu.localCopy')}</p>
-            {restaurant.menuUrl ? <a href={restaurant.menuUrl} className="text-link">{t('locations.menu')}<ArrowUpRight size={18} aria-hidden="true" /></a> : <a className="text-link" href={restaurant.source}>{t('common.source')}<ArrowUpRight size={18} aria-hidden="true" /></a>}</div>
+            <Link href={menuHref} prefetch={false} className="text-link">{t(menu ? 'locations.menu' : 'menu.choose')}<ArrowUpRight size={18} aria-hidden="true" /></Link></div>
         </div>
-        <p className="note">{t('locations.source')} <a href={restaurant.source}>{t('common.source')} ↗</a></p>
       </>}
     </div>
   </main>;

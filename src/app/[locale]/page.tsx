@@ -29,7 +29,7 @@ export default async function Home({params}: {params: Promise<{locale: string}>}
       <HeroSection />
       <SignatureProductFeature />
       <StorySection />
-      <MenuExplorer />
+      <MenuExplorer preview />
       <DeliverySection />
       <LocationFinder preview />
       <GiftSection />

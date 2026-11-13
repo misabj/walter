@@ -9,7 +9,7 @@ export async function DeliverySection() {
   return (
     <section className="delivery-section section-pad" aria-labelledby="delivery-title">
       <div className="delivery-visual" data-image-reveal>
-        <Image src="/images/walter-table.webp" alt={t('tableAlt')} fill sizes="(max-width: 760px) 88vw, 44vw" />
+        <Image src="/images/walter-delivery.webp" alt={t('deliveryAlt')} fill sizes="(max-width: 760px) 88vw, 44vw" />
         <span className="media-signature" aria-hidden="true">W / TO GO</span>
       </div>
       <div className="hospitality-copy" data-reveal>

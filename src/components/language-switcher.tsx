@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import {useLocale, useTranslations} from 'next-intl';
-import {Check, ChevronDown} from 'lucide-react';
+import {Check, ChevronDown, Globe2} from 'lucide-react';
 import {useEffect, useRef, useState, useTransition} from 'react';
 import {usePathname, useRouter} from '@/i18n/navigation';
 import {routing, type Locale} from '@/i18n/routing';
@@ -70,11 +70,11 @@ export function LanguageSwitcher({id}: {id: string}) {
           items[target]?.focus();
         }
       }}>
-        <p className="language-menu-label">{t('language')}</p>
+        <p className="language-menu-label"><Globe2 size={16} aria-hidden="true" />{t('language')}</p>
         {routing.locales.map((value) => <button key={value} type="button" role="menuitemradio" aria-checked={value === locale} tabIndex={-1} lang={value} onClick={() => choose(value)}>
           <Image src={`/images/flags/${languages[value].flag}.svg`} width={28} height={21} alt="" />
-          <span>{languages[value].name}</span><small>{value.toUpperCase()}</small>
-          {value === locale && <Check size={15} aria-hidden="true" />}
+          <span className="language-option-name">{languages[value].name}</span><small>{value.toUpperCase()}</small>
+          <span className="language-option-check" aria-hidden="true">{value === locale && <Check size={13} />}</span>
         </button>)}
       </div>}
     </div>

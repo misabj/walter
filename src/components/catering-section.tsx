@@ -32,7 +32,7 @@ export async function CateringSection() {
         </figure>
       </section>
 
-      <section className="catering-occasions section-pad" aria-labelledby="catering-occasions-title">
+      <section className="catering-occasions section-pad brand-pattern" aria-labelledby="catering-occasions-title">
         <div className="catering-section-heading">
           <p className="eyebrow">{t('occasionsEyebrow')}</p>
           <h2 id="catering-occasions-title">{t('occasionsTitle')}<br /><em>{t('occasionsAccent')}</em></h2>

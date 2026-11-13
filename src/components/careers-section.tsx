@@ -28,7 +28,7 @@ export async function CareersSection() {
         </figure>
       </section>
 
-      <section className="careers-benefits section-pad" aria-labelledby="careers-benefits-title">
+      <section className="careers-benefits section-pad brand-pattern" aria-labelledby="careers-benefits-title">
         <div className="careers-benefits-heading">
           <p className="eyebrow">{t('benefitsEyebrow')}</p>
           <h2 id="careers-benefits-title">{t('benefitsTitle')}<br /><em>{t('benefitsAccent')}</em></h2>

@@ -30,7 +30,7 @@ export function LocationFinder({preview = false}: {preview?: boolean}) {
       <AmbientVideo variant="story" sizes="100vw" />
       <p className="directory-introduction">{t('directory.intro')}</p>
     </div>}
-    <section className={`locations-section section-pad${preview ? ' locations-preview' : ' locations-directory'}`} aria-labelledby="locations-title">
+    <section className={`locations-section section-pad brand-pattern${preview ? ' locations-preview' : ' locations-directory'}`} aria-labelledby="locations-title">
       {preview ? <SectionHeading eyebrow={t('locations.eyebrow')} title={t('locations.title')} copy={t('locations.copy')} id="locations-title" />
         : <h2 className="sr-only" id="locations-title">{t('nav.locations')}</h2>}
       {!preview && <div className="directory-stats">

@@ -14,6 +14,6 @@ export async function EditorialSection({kind}: {kind: 'careers' | 'news' | 'cate
       : <div className="editorial-art" aria-hidden="true"><MoveUpRight strokeWidth={0.8} /></div>}
     <div data-reveal><p className="eyebrow">{kind === 'news' ? t('eyebrow') : nav(kind)}</p><h2 id={`${kind}-title`}>{kind === 'catering' ? `${t('line1')} ${t('line2')}` : t('title')}</h2><p>{t(kind === 'catering' ? 'intro' : 'copy')}</p>{kind !== 'news'
       ? <Link href={`/${kind}`} className="text-link">{nav(kind)}<ArrowUpRight size={20} aria-hidden="true" /></Link>
-      : <a href={official.news} className="text-link">{t('cta')}<ArrowUpRight size={20} aria-hidden="true" /></a>}{kind === 'careers' && <p className="note">{(await getTranslations('careers'))('note')}</p>}</div>
+      : <a href={official.news} className="text-link">{t('cta')}<ArrowUpRight size={20} aria-hidden="true" /></a>}</div>
   </section>;
 }
