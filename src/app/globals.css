@@ -213,27 +213,30 @@ body:has(dialog[open]) { overflow: hidden; }
 .category-tabs button[aria-pressed=true] { background: var(--green); color: var(--paper); border-color: var(--green); }
 .category-tabs button:hover:not([aria-pressed=true]) { background: #103f320b; }
 .product-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 70px 4%; align-items: start; }
-.product-card { grid-column: span 4; min-width: 0; display: flex; align-items: center; gap: 24px; }
+.product-card { grid-column: span 4; min-width: 0; }
 .product-card:first-child { grid-column: span 7; }
 .product-card:nth-child(2) { grid-column: span 5; margin-top: 140px; }
 .product-card:nth-child(4) { margin-top: 90px; }
-.product-art { position: relative; display: block; width: 42%; min-width: 180px; flex-shrink: 0; padding: 0; text-align: left; overflow: hidden; aspect-ratio: .8; background: var(--cream); border-radius: 3px; }
-.product-card:first-child .product-art { width: min(52%, 360px); aspect-ratio: 1.05; }
+.product-art { position: relative; display: block; width: 100%; padding: 0; text-align: left; overflow: hidden; aspect-ratio: .8; background: var(--cream); border-radius: 3px; }
+.product-card:first-child .product-art { aspect-ratio: 1.05; }
 .product-card:nth-child(2) .product-art { aspect-ratio: .94; }
 .product-art::after { content: ''; position: absolute; inset: 60% 0 0; background: linear-gradient(transparent, #071b1766); pointer-events: none; }
 .product-art > img { transition: transform 650ms cubic-bezier(.2,.8,.2,1); }
 .product-category { position: absolute; bottom: 20px; left: 20px; padding: 8px 12px; font-size: 11px; color: var(--paper); z-index: 1; border: 1px solid #f0e6d473; background: #103f327a; border-radius: 20px; }
-.product-info { position: relative; flex: 1; min-width: 0; padding: 0; }
+.product-info { position: relative; padding: 25px 0 0; }
 .product-info h3 { font-size: clamp(23px, 2.2vw, 34px); letter-spacing: -.05em; line-height: 1.2; }
 .product-info p { font-size: 14px; line-height: 1.8; max-width: 360px; color: #55604f; margin: 15px 0; }
 .product-info .text-link { font-size: 12px; }
 .product-grid[data-filtered=true] .product-card { grid-column: span 6; margin-top: 0; }
 .product-grid[data-filtered=true] .product-art { aspect-ratio: 1.1; }
 .dishes-section.section-pad { padding-top: 56px; }
-.product-grid.product-grid-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 52px 28px; }
-.product-grid.product-grid-catalog .product-card { grid-column: auto; margin: 0; width: 100%; }
-.product-grid-catalog .product-card .product-art { aspect-ratio: 4 / 3; }
-.product-grid-catalog .product-info h3 { font-size: clamp(24px, 2vw, 30px); }
+.product-grid.product-grid-catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 52px 28px; align-items: stretch; }
+.product-grid.product-grid-catalog .product-card { display: flex; flex-direction: column; align-items: stretch; gap: 0; grid-column: auto; margin: 0; width: 100%; }
+.product-grid-catalog .product-card .product-art { width: 100%; min-width: 0; flex-shrink: 0; aspect-ratio: 4 / 3; }
+.product-grid-catalog .product-info { display: flex; flex: 1; min-width: 0; flex-direction: column; align-items: flex-start; padding: 22px 0 0; }
+.product-grid-catalog .product-info h3 { min-height: 2.4em; font-size: clamp(24px, 2vw, 30px); }
+.product-grid-catalog .product-info p { max-width: none; margin: 14px 0 20px; }
+.product-grid-catalog .product-info .text-link { margin-top: auto; }
 .food-photo.menu-photo { object-fit: contain; padding: 7%; background: #e9e5dc; }
 .dishes-link { margin-top: 45px; }
 .dishes-menu-note { border-top: 1px solid var(--line); margin-top: 55px; padding-top: 25px; display: flex; justify-content: space-between; align-items: center; gap: 30px; }
@@ -715,9 +718,10 @@ body:has(dialog[open]) { overflow: hidden; }
   .product-art, .product-card:first-child .product-art, .product-card:nth-child(2) .product-art { width: 100%; min-width: 0; aspect-ratio: .98; }
   .product-card:nth-child(3) .product-art, .product-card:nth-child(5) .product-art { aspect-ratio: 1.15; }
   .dishes-section.section-pad { padding-top: 32px; }
-  .product-grid.product-grid-catalog { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .product-grid.product-grid-catalog { grid-template-columns: minmax(0, 1fr); grid-auto-rows: auto; gap: 40px; }
   .product-grid-catalog .product-card:nth-child(n) { grid-column: auto; margin: 0; width: 100%; }
   .product-grid-catalog .product-card .product-art { aspect-ratio: 4 / 3; }
+  .product-grid-catalog .product-info h3 { min-height: 0; }
   .dishes-menu-note { flex-direction: column; align-items: flex-start; gap: 14px; margin-top: 40px; }
   .dishes-menu-note .text-link { max-width: 100%; }
   .product-category { font-size: 10px; left: 15px; bottom: 15px; }
