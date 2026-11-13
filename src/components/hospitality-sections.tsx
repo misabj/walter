@@ -36,7 +36,6 @@ export async function GiftSection() {
   return (
     <section className="gift-section section-pad" aria-labelledby="gift-title">
       <div className="hospitality-copy" data-reveal>
-        <p className="eyebrow">{t('giftEyebrow')}</p>
         <h2 id="gift-title">{t('giftTitle')}<br /><em>{t('giftAccent')}</em></h2>
         <p className="hospitality-description">{t('giftCopy')}</p>
         <p className="hospitality-note">{t('giftNote')}</p>
