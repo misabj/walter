@@ -2,6 +2,7 @@ import Image from 'next/image';
 import {getTranslations} from 'next-intl/server';
 import {ArrowUpRight, GraduationCap, Heart, Mail, Phone, Sprout, Users} from 'lucide-react';
 import {official} from '@/lib/content';
+import {Link} from '@/i18n/navigation';
 
 const benefits = [
   {key: 'learning', icon: GraduationCap},
@@ -19,7 +20,7 @@ export async function CareersSection() {
           <p className="eyebrow">{t('eyebrow')}</p>
           <h2 id="careers-title">{t('line1')}<br /><em>{t('line2')}</em></h2>
           <p className="careers-intro">{t('intro')}</p>
-          <a href={official.jobApplication} className="button button-green careers-apply">{t('apply')}<ArrowUpRight size={20} aria-hidden="true" /></a>
+          <Link href={official.jobApplication} className="button button-green careers-apply">{t('apply')}<ArrowUpRight size={20} aria-hidden="true" /></Link>
           <p className="careers-application-note">{t('applicationNote')}</p>
         </div>
         <figure className="careers-hero-photo">
@@ -50,7 +51,7 @@ export async function CareersSection() {
           <p className="eyebrow">{t('nextEyebrow')}</p>
           <h2 id="careers-next-title">{t('nextTitle')}<br /><em>{t('nextAccent')}</em></h2>
           <p>{t('nextCopy')}</p>
-          <a href={official.jobApplication} className="button careers-apply">{t('apply')}<ArrowUpRight size={20} aria-hidden="true" /></a>
+          <Link href={official.jobApplication} className="button careers-apply">{t('apply')}<ArrowUpRight size={20} aria-hidden="true" /></Link>
           <p className="careers-application-note">{t('applicationNote')}</p>
         </div>
         <div className="careers-hr">

@@ -67,7 +67,7 @@ export const official = {
   belgradeMenu: '/menus/walter-belgrade-2026.pdf',
   locations: 'https://walter.rs/restorani/',
   careers: 'https://walter.rs/karijera/',
-  jobApplication: 'https://walter.rs/prijava-za-posao/',
+  jobApplication: '/prijava-za-posao',
   hrEmail: 'mailto:hr@walter.rs',
   hrPhone: 'tel:+38162333024',
   gifts: 'https://walter.rs/poklon-galerija/',
